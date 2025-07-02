@@ -10,6 +10,7 @@ CREATE TABLE [ROLE_MASTER] (
 )
 GO
 
+--insertion of data into role master
 INSERT INTO ROLE_MASTER([NAME],[IS_ACTIVE] )
 VALUES ('Admin',0),('User',1);
 
